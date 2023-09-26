@@ -10,6 +10,7 @@
     gap: 199px;
     flex-shrink: 0;
   }
+
   .logo {
     color: var(--primary-b-400, #6070ff);
     font-family: 'Poppins', sans-serif;
