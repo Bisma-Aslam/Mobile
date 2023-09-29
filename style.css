@@ -3,7 +3,7 @@
 
 .head {
   display: flex;
-  width: 375px;
+  width: 100%;
   height: 48px;
   padding: 4px 24px 4px 12px;
   align-items: flex-start;
@@ -97,7 +97,7 @@
   gap: 88px;
   margin-top: 20px;
   background-color: #dfe1e6;
-  max-width: 375px;
+  width: 375px;
 }
 
 .cards {
@@ -109,7 +109,7 @@
   border-radius: 16px;
   border: 1px solid var(--neutrals-n-40, #dfe1e6);
   background: var(--neutrals-n-0, #fff);
-  width: 327px;
+  width: 375px;
   height: 552px;
   margin-bottom: 88px;
 }
@@ -409,12 +409,18 @@
   margin-top: 5px;
 }
 .ContactMe{
-  width: 375px;
-height: 779px;
-flex-shrink: 0;
-background-image:"./contact form shapes-mobile.svg";
-background-color: var(--primary-b-400, #6070FF);
-padding:103px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  padding: 50px 20px; 
+  background-image: url("./contact form shapes-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: var(--primary-b-400, #6070FF);
+  border-top-left-radius: 80px;
+  overflow: visible;
+  width:375px;
+  height: 770px;
 }
 .headf{
   display: flex;
@@ -528,7 +534,7 @@ line-height: 24px; /* 160% */
 
 .submitButton{
   width:auto 110px;
-height:auto 24px;
+height:auto 40 px;
 color: var(--primary-b-400, #6070FF);
 text-align: center;
 font-family: Poppins;
