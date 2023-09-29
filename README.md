@@ -3,18 +3,17 @@
 
 # Mobile Template Web
 
-![Project Logo](logo.png)
+![Project Logo](./logo.png)
 
 Welcome to the Mobile Template Web project! This template is designed to help you kickstart your mobile web development process with ease.
 
+
 ## Table of Contents
 
-- [Getting Started]
-- [Features]
-- [Usage]
-- [Folder Structure]
-- [Contributing]
-- [License]
+->Header and Headline Section
+->Work Section
+      -About Myself
+
 
 
 
