@@ -49,6 +49,7 @@
   background-repeat: no-repeat;
   z-index: -1;
   margin-bottom: 22px;
+  
 }
 
 .text10 {
@@ -96,8 +97,8 @@
   justify-content: center;
   gap: 88px;
   margin-top: 20px;
-  background-color: #dfe1e6;
-  max-width: 375px;;
+  background-color:#C1C7D0;
+  max-width: 375px;
 }
 
 .cards {
@@ -323,17 +324,27 @@ padding: 16px 26px 16px 12px;
 align-items: center;
 gap: 12px;
 }
-.lang{
+
+.lang1{
   width: 237px;
   color: #000;
-
-
 font-family: Poppins;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px; /* 120% */
+line-height: 24px; 
 display: inline-block;
+}
+.lang{
+  width: 237px;
+  color: #000;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+display: inline-block;
+
 }
 .spic{
   width: 24px;
@@ -348,7 +359,7 @@ padding-left: 100px;
 height: 24px;
 display: inline-block;
 position: absolute;
-padding-left: 156px;
+padding-left: 165px;
 }
 .list{
   display: flex;
@@ -366,18 +377,26 @@ align-items: center;
 gap: 16px;
 border-radius: 8px;
 background: var(--neutrals-n-10, #F7F7F9);
+margin-bottom: 10px;
+margin-right: 100px;
 .img1{
   width: 48px;
 height: 48px;
 flex-shrink: 0;
 border-radius: 48px;
 border: 1px solid var(--neutrals-n-0, #FFF);
-padding-left:50px;
 }
-.img2{
-  width: 48px;
-height: 48px;
-flex-shrink: 0;
-border-radius: 48px;
-border: 1px solid var(--neutrals-n-0, #FFF);
+.p1{
+  margin: 0;
+  padding-right: 10px;
+}
+.p2{
+  margin: 0;
+  padding-right: 65px;
+}
+.line{
+  color:#505F79;
+  width: 100%;
+  height: 2px; /* Set the height of the line */
+  margin-top: 5px;
 }
