@@ -434,13 +434,12 @@
   flex-shrink: 0;
   color: var(--neutrals-n-0, #fff);
   text-align: center;
-
-  /* Header / 2 */
   font-family: 'Poppins', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
+  padding-top: 70px;
 }
 
 .paraf {
