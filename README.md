@@ -16,7 +16,8 @@ Welcome to the Mobile Template Web project! This template is designed to help yo
 ->Contact Me 
 
 
-
+## LICENSE
+->Added Mit License
 
 
 
