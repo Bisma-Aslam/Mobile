@@ -553,6 +553,7 @@ text::placeholder {
   margin-top: 10px;
   border-color: white;
 }
+
 textarea::placeholder {
   width: 273px;
   height: 140px;
