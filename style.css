@@ -522,6 +522,7 @@ input::placeholder {
   line-height: 20px;
   padding-left: 15px;
   word-wrap: break-word;
+  position: relative;
 }
 
 text::placeholder {
