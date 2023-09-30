@@ -13,10 +13,11 @@ Welcome to the Mobile Template Web project! This template is designed to help yo
 ->Header and Headline Section
 ->Work Section
       -About Myself
+->Contact Me 
 
 
-
-
+## LICENSE
+->Added Mit License
 
 
 
@@ -33,7 +34,11 @@ Basic Portfolio Template
 This will help to See portfolio even in Mobile Template 
 
 Contribution:
-Bisma Aslam
-bismamalik2056@gmail.com
+Name:Mehar-Aziz
+E-mail:meharaziz.1614@gmail.com
+
+Author:
+Name:Bisma-Aslam
+E-mail:bismamalik2056@gmail.com
 
 
