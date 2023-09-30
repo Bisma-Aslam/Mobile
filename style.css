@@ -420,7 +420,7 @@
   border-top-left-radius: 80px;
   overflow: visible;
   width:375px;
-  height: 770px;
+  height: 750px;
 }
 .headf{
   display: flex;
@@ -433,7 +433,7 @@ color: var(--neutrals-n-0, #FFF);
 text-align: center;
 
 /* Header / 2 */
-font-family: Poppins;
+font-family: 'Poppins', sans-serif;
 font-size: 40px;
 font-style: normal;
 font-weight: 700;
@@ -445,17 +445,16 @@ height: 137px;
 flex-shrink: 0;
 color: var(--primary-b-50, #EBEBFF);
 text-align: center;
-font-family: Poppins;
+font-family: 'Poppins', sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 28px; 
-margin-bottom: 20px;
 justify-content: center;
 }
 form{
   display: flex;
-  flex-direction: column; /* Display child elements in a column */
+  flex-direction: column; 
   border: none;
   padding-top: 50px;
   margin-bottom: 20px;
@@ -523,13 +522,11 @@ text::placeholder{
 height: 140px;
 flex-shrink: 0;
 color: var(--neutrals-n-60, #B3BAC5);
-
-/* Input /Normal */
-font-family: Poppins;
+font-family: 'Poppins', sans-serif;
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 160% */
+line-height: 24px; 
 }
 
 .submitButton{
