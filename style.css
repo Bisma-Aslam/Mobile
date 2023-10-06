@@ -623,6 +623,11 @@ textarea::placeholder {
     flex-shrink: 0;  
     width:fixed 1440px;
     height:fixed 846px;
+    background-image: url('./header bg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  margin-bottom: 22px;
 }
 
 
