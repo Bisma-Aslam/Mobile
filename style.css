@@ -107,7 +107,13 @@ head1{
   gap: 88px;
   margin-top: 20px;
   background-color: #dfe1e6;
-  width: 375px;
+  width: 100%;
+}
+.mobcards{
+  display:block;
+}
+.deskcards{
+  display:none;
 }
 
 .cards {
@@ -583,7 +589,7 @@ textarea::placeholder {
     padding: 16px 143px;
     justify-content: center;
     align-items: flex-start;
-    gap: 796px;
+    gap: 700px;
     width:fixed 1440px;
     height:fixed 72px;
 }
@@ -615,22 +621,15 @@ textarea::placeholder {
     gap: 10px;
 }
 .headline {
-    display: inline-flex;
-    height: 846px;
-    padding: 289px 260px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;  
-    width:fixed 1440px;
-    height:fixed 846px;
-    background-image: url('./header bg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1;
-  margin-bottom: 22px;
+  display: inline-flex;
+  padding: 289px 260px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: fixed 1440px;
+  height: fixed 846px;
+  background-image: url('./Header\ bg.svg');
 }
-
-
 .text10 {
     display: flex;
     width: 920px;
@@ -677,7 +676,83 @@ line-height: 28px;
 height: 20px;
 flex-shrink: 0;
 }
+
+.deskcards{
+  display: inline-flex;
+padding: 142px;
+flex-direction: column;
+align-items: center;
+background-color: #dfe1e6;
+gap: 142px;
+width:auto 1440px;
+height:auto 2694px;
+
 }
+
+.mobcard{
+  display:none;
+  
+}
+.deskCard1{
+  display:inline-flex;
+    width: 1156px;
+  height: 496px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  border: 1px solid var(--neutrals-n-40, #FFFFFF);
+}
+
+.L1p{
+  width: 496px;
+  height: 46px;
+  color: var(--theme-1-neutrals-1, #091E42);
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; 
+}
+
+
+.text9 {
+  color: var(--neutrals-n-600, #344563);
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  padding-left: 4px;
+  padding-right: 7px;
+  display: inline;
+}
+
+.textCHH {
+  color: var(--neutrals-n-100, #7a869a);
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  display: inline;
+}
+
+.count1 {
+  display: inline;
+  width: 8px;
+  height: 8px;
+  fill: var(--neutrals-n-50, #c1c7d0);
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px; 
+}
+
+}
+
+
 
 
 
