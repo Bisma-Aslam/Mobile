@@ -719,16 +719,6 @@ font-style: normal;
 font-weight: 700;
 line-height: 52px;
 }
-.content{
-  .content {
-    flex: 1; /* Allow content to grow and take remaining space */
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start; /* Align child elements to the start (left) */
-    gap: 10px; 
-    flex-wrap: wrap;
-}
-
 .text9 {
   color: var(--neutrals-n-600, #344563);
   font-family: 'Poppins', sans-serif;
@@ -823,7 +813,5 @@ line-height: 24px;
   width: auto 102px;
   height: auto 24px;
 }
-
-
 
 }
