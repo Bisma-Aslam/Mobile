@@ -946,6 +946,10 @@
     gap: 10px;
     border-radius: 8px;
     border: 1px solid var(--primary-b-400, #6070ff);
+    transition: background-color 0.3s ease;
+  }
+  .DeskB:hover{
+    background-color: #2980b9;
   }
 
   .DeskparaB {
