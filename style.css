@@ -643,6 +643,7 @@
     height: 750px;
     background-image: url('./Header\ bg.svg');
     border-bottom-left-radius: 80px;
+    background-repeat: no-repeat;
   }
 
   .text10 {
@@ -1239,6 +1240,11 @@
 
   .BUTTON {
     align-self: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .BUTTON:hover {
+    background-color: #2980b9;
   }
 
   .submitButton {
