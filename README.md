@@ -1,9 +1,9 @@
 # Mobile
 
 
-# Mobile Template Web
-
-![Project Logo](./logo.png)
+# Portfolio Project
+->Mobile Version
+->Desktop Version
 
 Welcome to the Mobile Template Web project! This template is designed to help you kickstart your mobile web development process with ease.
 
